@@ -38,4 +38,13 @@ int main(){
 	for(int i=0;i<5;i++){
 		cout << w[i]<<" | ";
 	}cout <<endl;//Akhir dari Bobot W
+	
+	// 4# Matrix R * W
+	cout <<endl<< "MATRIKS R * W : "<<endl; 
+	double RWac[3][5];
+	for(int i=0;i<3;i++){
+		for(int j=0;j<5;j++){
+			RWac[i][j]=Rac[i][j]*w[j]; cout <<RWac[i][j]<<" | ";
+		}cout <<endl;
+	}//4# Akhir Matrix R * W
 }
