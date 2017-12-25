@@ -31,4 +31,11 @@ int main(){
 			cout << Rac[i][j] << " | ";
 		}cout<<endl;
 	}// Akhir Matrix R
+	
+	// 3# Bobot W - Tampilkan Nilai
+	cout <<endl<< "BOBOT W : "<<endl;
+	double w[5]={5,3,4,4,2};
+	for(int i=0;i<5;i++){
+		cout << w[i]<<" | ";
+	}cout <<endl;//Akhir dari Bobot W
 }
