@@ -12,4 +12,11 @@ int main(){
 			cout << ac[i][j] << " | ";
 		}cout<<endl;
 	}// Akhir dari Matrix X
+	
+	// Mengambil nilai max tiap krateria
+	cout <<endl<< "MATRIKS R : "<<endl;	
+	double mc[5];
+	for(int i=0;i<5;i++){
+		mc[i+1]=max(ac[0][i],max(ac[1][i],ac[2][i]));
+	}
 }
