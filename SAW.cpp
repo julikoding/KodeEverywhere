@@ -25,4 +25,10 @@ int main(){
 					   {(ac[1][0]/mc[1]),(ac[1][1]/mc[2]),(ac[1][2]/mc[3]),(ac[1][3]/mc[4]),(ac[1][4]/mc[5])},
 					   {(ac[2][0]/mc[1]),(ac[2][1]/mc[2]),(ac[2][2]/mc[3]),(ac[2][3]/mc[4]),(ac[2][4]/mc[5])} 
 	};
+	
+	for(int i=0;i<3;i++){
+		for(int j=0;j<5;j++){
+			cout << Rac[i][j] << " | ";
+		}cout<<endl;
+	}// Akhir Matrix R
 }
