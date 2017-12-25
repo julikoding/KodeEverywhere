@@ -47,4 +47,13 @@ int main(){
 			RWac[i][j]=Rac[i][j]*w[j]; cout <<RWac[i][j]<<" | ";
 		}cout <<endl;
 	}//4# Akhir Matrix R * W
+	
+	// 5# HASIL AKHIR
+	cout <<endl<< "HASIL AKHIR : "<<endl;
+	double ha[3];	   
+	for(int i=0;i<3;i++){
+		for(int j=0;j<5;j++){
+			ha[i]+=RWac[i][j];
+		}
+	}
 }
