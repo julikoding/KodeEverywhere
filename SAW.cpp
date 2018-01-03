@@ -1,6 +1,6 @@
 #include <iostream>
 #include <cmath>
-using namespace std; // pake array 1 dimensi, array 2 dimensi, for do, do while, struct dan fungsi non-void
+using namespace std; // pake array 1 dimensi, array 2 dimensi, for do, do while, struct dan fungsi void
 
 struct julikoding{
     double ac[3][5]={ {4,4,5,3,3},{3,3,4,2,3},{5,4,2,2,2} };
@@ -56,7 +56,5 @@ int main(){
 			b.RWac[i][j]=Rac[i][j]*z.w[j]; cout <<b.RWac[i][j]<<" | ";
 		}cout <<endl;
 	}//4# Akhir Matrix R * W
-
-	// 5# HASIL AKHIR
 	cout <<endl<< "HASIL AKHIR : "; hasilnya();
 }
