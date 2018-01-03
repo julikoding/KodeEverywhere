@@ -32,9 +32,9 @@ int main(){
 	}
 	
 	// 2# Matrix R - Nilai dan Menampilkan Data
-	double Rac[3][5]={ {(ac[0][0]/mc[1]),(ac[0][1]/mc[2]),(ac[0][2]/mc[3]),(ac[0][3]/mc[4]),(ac[0][4]/mc[5])}, 
-					   {(ac[1][0]/mc[1]),(ac[1][1]/mc[2]),(ac[1][2]/mc[3]),(ac[1][3]/mc[4]),(ac[1][4]/mc[5])},
-					   {(ac[2][0]/mc[1]),(ac[2][1]/mc[2]),(ac[2][2]/mc[3]),(ac[2][3]/mc[4]),(ac[2][4]/mc[5])} 
+	double Rac[3][5]={ {(x.ac[0][0]/y.mc[1]),(x.ac[0][1]/y.mc[2]),(x.ac[0][2]/y.mc[3]),(x.ac[0][3]/y.mc[4]),(x.ac[0][4]/y.mc[5])}, 
+					   {(x.ac[1][0]/y.mc[1]),(x.ac[1][1]/y.mc[2]),(x.ac[1][2]/y.mc[3]),(x.ac[1][3]/y.mc[4]),(x.ac[1][4]/y.mc[5])},
+					   {(x.ac[2][0]/y.mc[1]),(x.ac[2][1]/y.mc[2]),(x.ac[2][2]/y.mc[3]),(x.ac[2][3]/y.mc[4]),(x.ac[2][4]/y.mc[5])} 
 	};
 	
 	for(int i=0;i<3;i++){
