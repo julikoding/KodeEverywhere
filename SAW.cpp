@@ -1,6 +1,6 @@
 #include <iostream>
 #include <cmath>
-using namespace std;
+using namespace std; // pake array 1 dimensi, array 2 dimensi, for do, do while, struct dan fungsi non-void
 
 int main(){
 	cout.setf(ios::fixed); cout.setf(ios::showpoint); cout.precision(4);
