@@ -7,6 +7,14 @@ struct julikoding{
     double mc[5],w[5]={5,3,4,4,2},ha[3],RWac[3][5];
 };julikoding x,y,z,a,b; //variabel struknya, pdhl 1 juga cukup. biar enak dilihat jadi variabelny ada 5.
 
+void hasilnya(){ 
+	for(int i=0;i<3;i++){
+		for(int j=0;j<5;j++){
+			a.ha[i]+=b.RWac[i][j];
+		}
+	}cout << endl<< "Nilai A1 : "<<a.ha[0]<<endl << "Nilai A2 : "<<a.ha[1]<<endl<< "Nilai A3 : "<<a.ha[2]<<endl;
+}
+
 int main(){
 	cout.setf(ios::fixed); cout.setf(ios::showpoint); cout.precision(4);
 	// 1# Matrix X - Isi dan Tampilan Data
