@@ -2,6 +2,11 @@
 #include <cmath>
 using namespace std; // pake array 1 dimensi, array 2 dimensi, for do, do while, struct dan fungsi non-void
 
+struct julikoding{
+    double ac[3][5]={ {4,4,5,3,3},{3,3,4,2,3},{5,4,2,2,2} };
+    double mc[5],w[5]={5,3,4,4,2},ha[3],RWac[3][5];
+};julikoding x,y,z,a,b; //variabel struknya, pdhl 1 juga cukup. biar enak dilihat jadi variabelny ada 5.
+
 int main(){
 	cout.setf(ios::fixed); cout.setf(ios::showpoint); cout.precision(4);
 	// 1# Matrix X - Isi dan Tampilan Data
