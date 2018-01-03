@@ -27,9 +27,8 @@ int main(){
 	
 	// Mengambil nilai max tiap krateria
 	cout <<endl<< "MATRIKS R : "<<endl;	
-	double mc[5];
 	for(int i=0;i<5;i++){
-		mc[i+1]=max(ac[0][i],max(ac[1][i],ac[2][i]));
+		y.mc[i+1]=max(x.ac[0][i],max(x.ac[1][i],x.ac[2][i]));
 	}
 	
 	// 2# Matrix R - Nilai dan Menampilkan Data
