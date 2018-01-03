@@ -18,12 +18,11 @@ void hasilnya(){
 int main(){
 	cout.setf(ios::fixed); cout.setf(ios::showpoint); cout.precision(4);
 	// 1# Matrix X - Isi dan Tampilan Data
-	cout << "MATRIKS X : "<<endl;
-	double ac[3][5]={ {4,4,5,3,3},{3,3,4,2,3},{5,4,2,2,2} };
+	cout << "MATRIKS X : "<<endl; 
 	for(int i=0;i<3;i++){
-		for(int j=0;j<5;j++){
-			cout << ac[i][j] << " | ";
-		}cout<<endl;
+		int j=0; do{ 
+			cout << x.ac[i][j] << " | "; j++; 
+		}while(j<5);cout<<endl;
 	}// Akhir dari Matrix X
 	
 	// Mengambil nilai max tiap krateria
